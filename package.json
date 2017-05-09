@@ -1,19 +1,19 @@
 {
-  "name": "redux-crud-example",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.html",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "name": "tstadmonrest",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "admin-on-rest": "^1.0.1",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
   },
-  "author": "",
-  "license": "MIT",
   "devDependencies": {
-    "aor-json-rest-client": "2.0.0",
-    "aor-language-french": "~1.8.0",
-    "aor-rich-text-input": "~1.0.0",
-    "babel-plugin-transform-react-jsx": "^6.8.0",
-    "babel-polyfill": "^6.9.1",
-    "babel-preset-react": "^6.11.1"
+    "react-scripts": "0.9.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
   }
 }
