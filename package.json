@@ -5,7 +5,8 @@
   "dependencies": {
     "admin-on-rest": "^1.0.1",
     "react": "^15.5.4",
-    "react-dom": "^15.5.4"
+    "react-dom": "^15.5.4",
+    "yarn": "^0.23.4"
   },
   "devDependencies": {
     "react-scripts": "0.9.5"
