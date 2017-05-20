@@ -1,0 +1,13 @@
+[Unit]
+Description=gui container
+After=svcrouter.service
+
+[Service]
+Restart=always
+ExecStart=/usr/bin/docker start -a gui.ncc9.com
+ExecStop=/usr/bin/docker stop -t 2 gui.ncc9.com
+StartLimitInterval=90
+StartLimitBurst=3
+
+[Install]
+WantedBy=multi-user.target
